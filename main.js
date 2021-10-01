@@ -84,11 +84,12 @@ function cartNumbers(items) {
       cartContainer.style.left='0';
        cartContainer.innerHTML = `
               <div class="image">
+                  <span onclick="back()" class="back">&#10006</span>
                   <img src="${items.image}"  id="detaiImage" alt="">
               </div>
 
               <div class="details">
-                     <span onclick="back()" class="back">&#10006</span>
+                     
                      <h2 class="product-brand">${items.name}</h2>
                      <span class="product-price">$${items.price}</span>
                      <span class="product-actual-price">$200</span>
