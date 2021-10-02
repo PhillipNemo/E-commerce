@@ -272,7 +272,7 @@ footer{
 /* details page */
 
 #cart-container{
-    position: absolute;
+    position: fixed;
     padding: 20px ;
     background-color: rgb(109, 218, 158);
     top: 50px;
