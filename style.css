@@ -147,7 +147,7 @@
     right: 10px;
     padding: 5px;
     animation: dropIn 8s ease-in-out forwards;
-    animation-delay: calc(var(--order) * 100ms);
+    animation-delay: calc(var(--order) * 10ms);
     opacity: 0;
 }
 @keyframes dropIn {
